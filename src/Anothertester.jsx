@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 import './mystyle.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'material-icons/iconfont/material-icons.css';
+// import 'material-icons/iconfont/material-icons.css';
 import SideMenu from './components/SideMenu';
 import DSideMenu from './components/DSideMenu';
 import Header from './components/Header';
