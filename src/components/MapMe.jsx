@@ -31,6 +31,7 @@ import front13 from '../images/front13.jpeg';
 import front14 from '../images/front14.jpeg';
 import front15 from '../images/front15.jpeg';
 import front16 from '../images/front16.jpeg';
+import {FaEllipsisV} from 'react-icons/fa'
 
 
 const data = [
@@ -74,7 +75,7 @@ const MapMe = () => {
               <div className="topme">{item.name}</div>
               <div className="downme">{item.role}</div>
             </div>
-            <div className="third3"><i class="fa fa-ellipsis-v"></i></div>
+            <div className="third3"><FaEllipsisV /></div>
           </div>
         </div>
         </div> 

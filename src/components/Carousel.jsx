@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "../carousel.css"
-
+import {FaCompass} from 'react-icons/fa';
 
 const Carousel = () => {
   return (
     <div className="carousel">
       <div className="mynexts">
         <a href="#" className="games flex-item">
-          <i class="material-icons" style={{ fontSize: "18px", marginRight: "2px" }}>explore</i> Explore
+        <FaCompass style={{fontSize: "18px",marginRight: "2px"}}/> Explore
         </a>
         <a href="#" className="games flex-item" style={{ backgroundColor: "white", color: "black" }}>All</a>
         <a href="#" className="games flex-item">Live</a>

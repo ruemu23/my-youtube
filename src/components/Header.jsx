@@ -1,7 +1,8 @@
 import React , { memo } from 'react'
 import '../mystyle.css';
 import { useState, useRef, useEffect } from 'react';
-import { FaTimes, FaSearch, FaYoutube} from 'react-icons/fa';
+import { FaTimes, FaSearch, FaYoutube, FaUserCircle, FaMicrophoneAlt, FaVideo, FaBell} from 'react-icons/fa';
+import {MdOutlineMenu} from 'react-icons/md'
 
 
 // import RightMenu from './RightMenu';
@@ -84,11 +85,11 @@ const Header = (props) => {
     <div className='App-logo'><FaYoutube  className="youtube-icon"/><p className='youtubeme'>RUEMU</p> </div>
     <div className="myicons">
       <a href="#"><i class="fa fa-search"></i></a>
-      <a href="#" onClick={toggleElement}><i class="fa fa-user-circle"></i></a>
+      <a href="#" onClick={toggleElement}><FaUserCircle /></a>
     </div>
   
     <div className="starter">
-      <div className="starter1" onClick={mytoggleElement}><i class="material-icons">menu</i></div>
+      <div className="starter1" onClick={mytoggleElement}><MdOutlineMenu /></div>
       <div className="starter2"><FaYoutube  className="youtube-icon"/><p className='youtubeme1'>RUEMU</p> </div>
     </div>
     <div className="middle">
@@ -100,14 +101,14 @@ const Header = (props) => {
       onFocus={handleFocus}
       onBlur={handleBlur}
       onChange={handleChange}/>
-        <button className="buttons"> <i class="fa fa-search"></i> </button>
-        <div className="mic"><span className="centero"><i class="fa fa-microphone"></i>  <span class="tooltiptext">Search with your voice</span></span></div>
+        <button className="buttons"> <FaSearch /> </button>
+        <div className="mic"><span className="centero"><FaMicrophoneAlt />  <span class="tooltiptext">Search with your voice</span></span></div>
       </div>
       {/* <div className="middle2"><i class="fa fa-microphone"></i></div> */}
     </div>
     <div className="ending">
-      <div className="ending1"><span className="centero1"><i class="fa fa-video-camera"></i><span class="tooltiptext">Create</span></span></div>
-      <div className="ending2"><span className="centero1"><i class="fa fa-bell"></i><span class="tooltiptext">Notifications</span></span></div>
+      <div className="ending1"><span className="centero1"><FaVideo /><span class="tooltiptext">Create</span></span></div>
+      <div className="ending2"><span className="centero1"><FaBell /><span class="tooltiptext">Notifications</span></span></div>
       <div className="ending3">
         <div className="mypic" onClick={mytoggledropElement}>
         

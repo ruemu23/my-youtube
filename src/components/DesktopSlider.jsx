@@ -1,10 +1,11 @@
 import React from 'react';
 import "../mystyle.css";
+import {FaCompass} from 'react-icons/fa';
 
 const DesktopSlider = () => {
   return (
     <div className="mynexts my-diver">
-    <a href="#" className="games flex-item"><i class="material-icons" style={{fontSize: "18px",marginRight: "2px"}}>explore</i> Explore</a>
+    <a href="#" className="games flex-item"><FaCompass style={{fontSize: "18px",marginRight: "2px"}}/>Explore</a>
     <a href="#" className="games flex-item" style={{backgroundColor: "white",color : "black"}}>All</a>
     <a href="#" className="games flex-item">Live</a>
     <a href="#" className="games flex-item">Music</a>

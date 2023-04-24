@@ -1,9 +1,10 @@
 import React from "react";
 import "../SideMenu.css";
-import { FaUserAstronaut, FaTwitter } from 'react-icons/fa';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'material-icons/iconfont/material-icons.css';
+import { FaUserAstronaut, FaTwitter, FaQuestion } from 'react-icons/fa';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+// import 'material-icons/iconfont/material-icons.css';
 import { SiYoutube, SiYoutubemusic} from "react-icons/si";
+import {MdClose, MdSettings, MdOutlineFeedback} from 'react-icons/md'
 
 // const SideMenu = ({ isOpen, onClose }) => {
 //   const handleOverlayClick = (event) => {
@@ -25,13 +26,13 @@ import { SiYoutube, SiYoutubemusic} from "react-icons/si";
 
         
     <div className="menu-contents">
-        <a onClick={toggle}><i class="material-icons">close</i> <p>Account</p></a>
+        <a onClick={toggle}><MdClose /> <p>Account</p></a>
         <a><FaUserAstronaut /> <p>Sign in</p></a>
        
-        <a> <i class="fa fa-gear"></i> <p>Settings</p></a>
+        <a> <MdSettings /> <p>Settings</p></a>
      
-        <a><i class="fa fa-question"></i><p>Help</p></a>
-        <a><i class="material-icons">feedback</i> <p>Feedback</p></a>
+        <a><FaQuestion /><p>Help</p></a>
+        <a><MdOutlineFeedback /> <p>Feedback</p></a>
     
         <a><SiYoutube /><p>Youtube Music</p></a>
         <a><SiYoutubemusic /> <p>Youtube Kids</p></a>
