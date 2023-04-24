@@ -11,7 +11,7 @@ const Subscriptions = () => {
    <div className="mostly">
        <div>Most recent uploads</div>
        <div className="mana">
-             <div className="colop">Manage</div>
+             <div className="colop">Manag</div>
              <div><BiGrid /></div>
              <div><FaList /></div>
        </div>
