@@ -2,8 +2,8 @@
 import "../DSideMenu.css";
 
 import {FaChild,FaTrophy,FaNewspaper,FaGamepad,FaFire,FaPlusCircle,FaThumbsUp,FaPlay,FaHistory,FaRegImages,FaAccusoft, FaHome, FaUserAstronaut, FaTwitter } from 'react-icons/fa';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'material-icons/iconfont/material-icons.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+// import 'material-icons/iconfont/material-icons.css';
 import { SiVisualstudiocode,SiApplemusic,SiCircle, SiAirplayvideo, SiYoutube, SiYoutubemusic} from "react-icons/si";
 //import { GrHomeRounded } from "react-icons/gr";
 import { GrHomeRounded } from 'grommet-icons';

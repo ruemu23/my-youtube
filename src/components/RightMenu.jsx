@@ -1,8 +1,8 @@
 import React from "react";
 import "../rightmenu.css";
 import {FaUnity,FaSketch,FaSchlix,FaHandsHelping,FaMixer,FaSimplybuilt,FaPushed,FaRedhat,FaMedapps,FaItchIo, FaCss3, FaBity, FaAccusoft,FaUserAstronaut, FaTwitter } from 'react-icons/fa';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'material-icons/iconfont/material-icons.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+// import 'material-icons/iconfont/material-icons.css';
 import { SiFeedly, SiYoutube, SiYoutubemusic} from "react-icons/si";
 
 // const SideMenu = ({ isOpen, onClose }) => {

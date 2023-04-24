@@ -26,8 +26,8 @@ import profile9 from '../images/profile9.jpeg';
 
 
 
-import '@fortawesome/fontawesome-free/css/all.min.css';
-import 'material-icons/iconfont/material-icons.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+// import 'material-icons/iconfont/material-icons.css';
 import { HiDotsHorizontal } from 'react-icons/hi';
 import {FaChild,FaTrophy,FaNewspaper,FaGamepad,FaFire,FaPlusCircle,FaThumbsUp,FaPlay,FaHistory,FaRegImages,FaAccusoft, FaHome, FaUserAstronaut, FaTwitter, FaVolumeUp, FaThumbsDown, FaCommentAlt,FaShare } from 'react-icons/fa';
 import { useState } from 'react';
