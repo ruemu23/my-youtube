@@ -1,6 +1,6 @@
 
 import { Outlet } from "react-router-dom";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
 // import 'material-icons/iconfont/material-icons.css';
 import { React, useState, useEffect, useRef, Link, DesktopSlider, MapMe, Header, MobileSlider, DSideMenu, SideMenu, RightMenu, Footer, } from './Imports';
 //using module exporting and importing.
